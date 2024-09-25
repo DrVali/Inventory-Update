@@ -1,5 +1,5 @@
 
-const inventory = ["mouse", "keyboard", "monitor",  "printer"];
+const inventory = ["mouse", "keyboard", "monitor", "laptop", "printer"];
 const searchTerm = "laptop";
 let arrray = [];
 let showFirstSlice = [];
