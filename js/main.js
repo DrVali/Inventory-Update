@@ -1,14 +1,16 @@
 
-const inventory = ["mouse", "keyboard", "monitor", "laptop", "printer"];
+const inventory = ["mouse", "keyboard", "monitor",  "printer"];
 const searchTerm = "laptop";
 let arrray = [];
 let showFirstSlice = [];
 let jsecondSlice= [];
 let j = 0 , mysearch, myResult;
 
-if(!inventory.includes(searchTerm)){
-    inventory.push(searchTerm);
-} else{
+if(inventory.includes(searchTerm)){
+    
+     console.log(arrray);
+} 
+
     for (let i = 0 ; i<inventory.length; i ++){
          myResult = inventory [i];
    if(searchTerm != myResult){
@@ -19,7 +21,6 @@ if(!inventory.includes(searchTerm)){
      mysearch = myResult;
     }
     arrray.push(searchTerm);
-    }
     
 console.log(arrray);
 
